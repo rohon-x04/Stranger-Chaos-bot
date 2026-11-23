@@ -2,7 +2,7 @@
 
 > Connect with strangers and chat privately without revealing your Telegram account.
 
-Built in **Rust** with [Teloxide](https://teloxide.rs/) and persistent JSON storage.
+Written in **Rust** with [Teloxide](https://teloxide.rs/) and persistent JSON storage.
 
 ## Run locally
 
@@ -32,4 +32,6 @@ cargo build --release
 - `/start` — register and restart
 - `/help` — show commands
 - `/search` — find a stranger
+- `/next` — skip to a new partner
 - `/stop` — leave the current chat
+- `/profile` — view profile
