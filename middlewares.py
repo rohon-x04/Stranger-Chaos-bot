@@ -50,7 +50,7 @@ class BanMiddleware(BaseMiddleware):
             return None
 
         if isinstance(event, Message) and contains_link_or_mention(event):
-            await event.answer("🚫 Links and user mentions are not allowed in this chat.")
+            await event.answer("🚫 Links are not allowed in chat. Your message was not sent.")
             return None
 
         return await handler(event, data)
